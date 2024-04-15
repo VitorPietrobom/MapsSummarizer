@@ -50,7 +50,7 @@ root = tk.Tk()
 root.title("Activity Finder")
 
 # Create input label and entry widget for activity
-activity_label = ttk.Label(root, text="What do you want to do?")
+activity_label = ttk.Label(root, text="What kind of place do you want to visit?")
 activity_label.grid(row=0, column=0, padx=10, pady=5)
 entry = ttk.Entry(root, width=30)
 entry.grid(row=0, column=1, padx=10, pady=5)
